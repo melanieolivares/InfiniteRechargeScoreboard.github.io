@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    .buttons__minus{
+        width: fit-content;
+        margin-top: 1.5rem;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+    .buttons__plus{
+        width: fit-content;
+        margin-top: 1.5rem;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+    .buttons__desc{
+        margin: 1.5rem 1.5rem 0 1.5rem;
+        background: transparent;
+        border: none;
+    }
+    .buttons__totalclicks{
+        margin: 1.5rem 1.5rem 0 1.5rem;
+        background: transparent;
+        border: none;
+    }
+}
+
+.contentcontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bluecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resetcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
